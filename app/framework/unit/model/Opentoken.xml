@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<mysqlhandle id="handle" name="handle">
+
+    <!-- 验证用户名是否存在 -->
+    <!-- 管理员登录 -->
+    <mysql id="mysql" name="select_manages" value="?"></mysql>
+    <!-- 管理员列表 -->
+    <mysql id="mysql" name="open_id" value="SELECT id,openid FROM pay_o"></mysql>
+    <!-- 更新管理员权限 -->
+    <!-- 更新管理员状态 -->
+</mysqlhandle>
